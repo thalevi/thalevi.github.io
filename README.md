@@ -1,6 +1,6 @@
 ## Welcome to GitHub Pages
 
-This is the main folder for CISC1003. To go to the webpage, please go to: [CISC 1003 class page](https:/tzipih0.github.lo/CISC_1003.html)  [class webpage] (https:/tzipih0.github.lo/CISC_1003.html).
+This is the main folder for CISC1003. To go to the webpage, please go to: [CISC 1003 class page](https:/tzipih0.github.lo/CISC_1003.html).
 
 You can use the [editor on GitHub](https://github.com/tzipih0/tzipih0.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
