@@ -30,7 +30,7 @@ a {
     <li>Tzipora Halevi</li>
     <li>halevi@sci.brooklyn.cuny.edu</li>
        <li>Ingersol Hall, room 2156A</li>
-    <li>Office Hours: Thursdays, 3:30 - 5:30pm</li>
+    <li>Office Hours: Thursdays, 3:30 - 5:00pm</li>
     </ul>
     <h4>Online Syllabi:  <a href="CISC1003-syllabus.pdf"> CISC1003 </a></h4>
     <h4> Hours and location:</h4>
@@ -54,38 +54,40 @@ a {
       <tbody>
         <tr>
           <td>
-            <h3>Textbook:</h3>
+            <h3>Textbooks:</h3>
             <p><strong>The Robotics Primer</strong><br>
               by Maja Mataric<br>
               Publisher: The MIT Press (September 30, 2007)<br>
               ISBN-10: 026263354X<br>
               ISBN-13: 978-0262633543</p>
+
+              <p><strong>Robot Programming: A Guide to Controlling Automous Robots</strong><br>
+                by <span data-bind="html: bookDetailsPage.getInfo('author')">Hughes, Cameron, Hughes, Tracey</span><br>
+                Publisher QUE:<br>
+                <strong>ISBN-10:</strong><span data-bind="html: bookDetailsPage.getInfo('isbn10')"> 0789755009</span><br>
+                <span data-bind="html: bookDetailsPage.getInfo('isbn10')"><strong>ISBN-13</strong> :<span data-bind="html: bookDetailsPage.isbn">9780789755001</span><br>
+                If you like, there is a Kindle edition and appears in color on devices that have a color display. Also please don't get overwelmed by this book, we will not be coding in Java or C language or using complex math formulas used in the book. I skip over them on the readings.</span></p>
+           
+
               <h3>Programming Guide:</h3>
-            <p><span id="productTitle"><strong>LEGO MINDSTORMS NXT-G
-                  Programming Guide</strong></span><br>
-              <strong>Publisher:</strong> Apress; 2nd ed. 2007 edition
-              (June 11, 2010) <br>
-              ISBN-10: 1430229764<br>
-              ISBN-13: 978-1430229766</p>
+
             <!--<p><strong>Course Pack and Lab Book</strong><br>
               The <a href="http://agents.sci.brooklyn.cuny.edu/CISC1003/labs/CISC1003-lab-book-NXT.pdf">LABS</a>
               are available online for 
 printing. The <a 
 href="http://agents.sci.brooklyn.cuny.edu/CISC1003/CISC1003-coursepack-fall2010.pdf">Course
                 Pack</a> is also available online.</p>-->
-          </td>
+        
+            <p id="title"><span id="productTitle"><strong>The LEGO MINDSTORMS EV3 Discovery Book:<br>
+              A Beginner's Guide to Building and Programming Robots<br>
+            </strong></span><strong>Publisher:</strong> No Starch Press<br>
+              <strong>ISBN-10:</strong> 1593275323<br>
+            <strong>ISBN-13:</strong> 978-1593275327</p>
+            <p>There will also be some handouts throught the term.</p>
+       </td>
         </tr>
       </tbody>
     </table>
-
-
-    <h2 style="background-color:#BBBBBB">Additional Resources:</h2>
-    <p>LAB Book:</p>
-    <ul>
-      <li>The <a href="files/lab-book-CISC1003-NXT.pdf""> LABS </a>are available online for printing</li>
-
-    </ul>
-
 
     <h3><strong>Please bring a USB Drive to save your work</strong></h3>
 
@@ -108,16 +110,14 @@ href="http://agents.sci.brooklyn.cuny.edu/CISC1003/CISC1003-coursepack-fall2010.
     <hr>
     <h2 style="background-color:#BBBBBB">Additional Resources:</h2>
     <p>Useful Links:</p>
-    <ul>
-      <li><a href="files/9797_LME_UserGuide.pdf">User's
-          Guide</a></li>
-      <li><a href="files/Building_Guide.pdf">Building
-          Guide</a></li>
-      <li><a href="files/Lego Mindstorms NXT-G programming guide.pdf">Programming
-          Guide</a> <g> </g></li>
-    </ul>
-    <table border="0" width="800">
-      <tbody>
+<ul>
+  <li><a href="https://www.lego.com/en-us/mindstorms/downloads/download-software">Software</a></li>
+  <li><a href="https://www.lego.com/en-us/mindstorms/learn-to-program">Learn to Program</a> - <strong>Helpful</strong></li>
+  <li><a href="ev3&#32;building&#32;instructions.pdf">Building Guide</a></li>
+  <li><a href="http://ev3lessons.com/en/">Tutorials</a><a href="http://www.mainerobotics.org/uploads/8/3/4/4/8344007/advanced_programmingforprint.pdf"></a></li>
+</ul>
+
+<table width="800" border="0">
         <tr>
           <th scope="col" bgcolor="#33CCFF">Date</th>
           <th scope="col" bgcolor="#33CCFF">Unit</th>
@@ -130,7 +130,7 @@ href="http://agents.sci.brooklyn.cuny.edu/CISC1003/CISC1003-coursepack-fall2010.
           <th scope="col" bgcolor="#33CCFF">Links</th>
         </tr>
         <tr>
-          <th scope="col" bgcolor="#CCCCCC">1/31</th>
+          <th scope="col" bgcolor="#CCCCCC">8/29</th>
           <th scope="col" bgcolor="#CCCCCC">A</th>
           <th scope="col" bgcolor="#CCCCCC">
             <p>Lecture Unit A (part 1)</p>
@@ -144,299 +144,18 @@ href="http://agents.sci.brooklyn.cuny.edu/CISC1003/CISC1003-coursepack-fall2010.
               <a href="http://mitp-content-server.mit.edu:18180/books/content/sectbyfn?collid=books_pres_0&fn=9780262025782_sch_0001.pdf&id=1498">Ch 1</a>
             </p>
 
-            <p>Glance over the <a href="files/9797_LME_UserGuide.pdf">User's
-                Guide</a></p>
           </th>
           <th scope="col" bgcolor="#CCCCCC">&nbsp;</th>
           <th scope="col" bgcolor="#CCCCCC">
             <!-- <p>&nbsp;</p> -->
-            <p><a href="files/lab-book-CISC1003-NXT.pdf">Unit&nbsp;A&nbsp;-&nbsp;Lab&nbsp;1</a></p>
+            <p>Unit&nbsp;A&nbsp;-&nbsp;Lab&nbsp;1</a></p>
           </th>
           <th scope="col" bgcolor="#CCCCCC">
-            <p><a href="files/1A-introduction-CISC1003.pdf">Unit A Intro*</a></p>
+            <p>Unit A Intro*</a></p>
           </th>
         </tr>
 
-        <tr>
-          <th scope="col" bgcolor="#CCCCCC">
-            <p>2/7</p>
-          </th>
-          <th scope="col" bgcolor="#CCCCCC">A </th>
-          <th scope="col" bgcolor="#CCCCCC">
-              <p>Lecture Unit A-2</p>
-          </th>
-          <th scope="col" bgcolor="#CCCCCC">
-            
-              <!-- <p>Case Study: BigDog for the HW.<br>
-              <a href="files/papers/a2-bigdog-2006.pdf">1</a><br>
-              <a href="files/papers/a3-bigdog-2008.pdf">2</a></p> -->
-
-              <p>Advanced Reading: <br>
-              <a href="files/papers/p499-raibert.pdf">Legged Robots</a></p>
-    
-              <p><strong>LEGO MINDSTORMS NXT Programming Guide</strong>
-              Ch 1-4</p>
-
-          </th>
-          <!-- <th scope="col" bgcolor="#CCCCCC"><a href="files/CISC1003-HW1.pdf">HW 1</a></th> -->
-          <th scope="col" bgcolor="#CCCCCC">&nbsp;</th>
-          <th scope="col" bgcolor="#CCCCCC">
-            <!-- <p>&nbsp;</p> -->
-            <p><a href="files/lab-book-CISC1003-NXT.pdf">&nbsp;Unit&nbsp;A&nbsp;-&nbsp;Lab&nbsp;2&nbsp;</a></p>
-          </th>
-          <th scope="col" bgcolor="#CCCCCC"><a href="files/1B-introduction-CISC1003.pdf">&nbsp;Unit&nbsp;A,&nbsp;week&nbsp;2*&nbsp;</a></th>
-        </tr>
-
-        <tr>
-          <th scope="col" bgcolor="#CCCCCC"> 2/14</th>
-          <th scope="col" bgcolor="#CCCCCC">B </th>
-          <th scope="col" bgcolor="#CCCCCC">
-              <p>Lecture Unit B-1</p>
-            <p> Robot Construction</p>
-          </th>
-          <th scope="col" bgcolor="#CCCCCC">
-            <p>
-              <a href="http://craig.backfire.ca/pages/autos/horsepower">Horsepower and Torque</a>
-            </p>
-            <p>
-              <a href="files/YawRollPitch.pdf">Roll, pitch and yaw</a>
-            </p>
-            <p>&nbsp;</p>
-          </th>
-          <th scope="col" bgcolor="#CCCCCC"></th>
-          < <th scope="col" bgcolor="#CCCCCC">
-            <p>
-              <a href="files/lab-book-CISC1003-NXT.pdf">Unit B - Lab 1</a>
-            </p>
-            </th>
-            <th scope="col" bgcolor="#CCCCCC">
-              <a href="files/2A-EffectorsActuators-CISC1003.pdf">Unit B, Week 1*</a>
-            </th>
-        </tr>
-
-        <tr>
-          <th scope="col" bgcolor="#CCCCCC"> 2/21</th>
-          <th scope="col" bgcolor="#CCCCCC">B </th>
-          <th scope="col" bgcolor="#CCCCCC">
-            <p>Lecture Unit B-2</p>
-          </th>
-          <th scope="col" bgcolor="#CCCCCC">
-            <p><strong>LEGO MINDSTORMS NXT-G Programming Guide Ch 5-6</strong></p>
-          </th>
-          <th scope="col" bgcolor="#CCCCCC"></th>
-          <th scope="col" bgcolor="#CCCCCC">
-            <p>
-              <a href="files/lab-book-CISC1003-NXT.pdf">Unit B - Lab 2</a>
-            </p>
-            <p>
-              <a href="files/supplemental-lab.pdf">Programming Challenge</a>
-            </p>
-          </th>
-          <th scope="col" bgcolor="#CCCCCC">
-            <a href="files/2B-programmingFund-CISC1003.pdf">Unit B, Week 2*</a>
-          </th>
-        </tr>
-
-        <tr>
-            <th scope="col" bgcolor="#CCCCCC"> 2/28</th>
-            <th scope="col" bgcolor="#CCCCCC">C </th>
-            <th scope="col" bgcolor="#CCCCCC"></th>
-            <th scope="col" bgcolor="#CCCCCC">
-              <p>Over the 2 weeks of Unit C:</p>
-              <p>Robot Primer Chapters 7&amp;8</p>
-              <p><strong>Programming Guide Ch 7-9</strong></p>
-                <p>&nbsp;</p>
-            </th>
-            <th scope="col" bgcolor="#CCCCCC">
-              
-            </th>
-            <th scope="col" bgcolor="#CCCCCC">
-              <a href="files/lab-book-CISC1003-NXT.pdf">Unit C</a>
-  
-            </th>
-            <th scope="col" bgcolor="#CCCCCC">
-              <a href="files/C1-Sensors-CISC1003.pdf"> Unit C1 - Sensors*</a>
-            </th>
-          </tr>
-
-          <tr>
-            <th scope="col" bgcolor="#CCCCCC"> 3/7</th>
-            <th scope="col" bgcolor="#CCCCCC">C </th>
-            <th scope="col" bgcolor="#CCCCCC">
-                <p>*QUIZ*</p>
-              <p>Video: <a href="https://www.youtube.com/watch?v=BZVekI8B-NU">Rise
-                of the Robots</a></p>
-            </th>
-            <th scope="col" bgcolor="#CCCCCC">
-  
-                  <p>Robot Locomotion: <a href="http://agents.sci.brooklyn.cuny.edu/corc3303/papers/c1-jahanian-icrb-2006.pdf">Locomotion Systems in Robotic Application</a></p>
-  
-                  <p>Dancing Robots:  <br>  
-                    <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.61.2235&rep=rep1&type=pdf">1
-                     <br></a>                
-                    <a href="http://ri.cmu.edu/pub_files/pub4/michalowski_marek_piotr_2007_2/michalowski_marek_piotr_2007_2.pdf">2 <br></a></p>
-                  <p>Advanced Reading:<a href="https://www.red3d.com/cwr/boids/">Boids
-                    Background and Update, </a>by Craig Reynolds</p>
-            </th>
-            <th scope="col" bgcolor="#CCCCCC"></th>
-            <th scope="col" bgcolor="#CCCCCC">
-              <p>
-  
-              </p>
-            </th>
-            <th scope="col" bgcolor="#CCCCCC">
-              <a href="files/C2-Locomotion-CISC1003.pdf">Unit C2 - Locomotion*</a>
-            </th>
-          </tr>
-
-          tr>
-          <th scope="col" bgcolor="#CCCCCC"> 3/14, 3/21</th>
-          <th scope="col" bgcolor="#CCCCCC">D </th>
-          <th scope="col" bgcolor="#CCCCCC">Control
-          </th>
-
-          <th scope="col" bgcolor="#CCCCCC">
-            <strong>Programming Guide Ch 10-12
-            </strong>
-            <p>Robot Sensors:
-              <a href="http://www.robotshop.com/media/files/PDF/then-and-now-robot-sensors.pdf">Then and Now</a>
-            </p>
-          </th>
-
-
-          <th scope="col" bgcolor="#CCCCCC">
-            
-          </th>
-          <th scope="col" bgcolor="#CCCCCC">
-            <a href="files/lab-book-CISC1003-NXT.pdf">Unit D - Lab 1</a>
-
-          </th>
-          <th scope="col" bgcolor="#CCCCCC">
-            <a href="files/D1 - RobotControl.pdf"> Unit D - Control*</a>
-          </th>
-        </tr>
-
-        <tr>
-          <th scope="col" bgcolor="#CCCCCC"> 3/27</th>
-          <th scope="col" bgcolor="#CCCCCC">D </th>
-          <th scope="col" bgcolor="#CCCCCC">Decision Making
-          </th>
-
-          <th scope="col" bgcolor="#CCCCCC">
-            
-          </th>
-
-
-          <th scope="col" bgcolor="#CCCCCC">
-            
-          </th>
-          <th scope="col" bgcolor="#CCCCCC">
-            <a href="files/lab-book-CISC1003-NXT.pdf">Unit D - Lab 2</a>
-
-          </th>
-          <th scope="col" bgcolor="#CCCCCC">
-            <a href="files/D2 - DecisionMaking.pdf"> Unit D2 - Robot Decision Making</a>
-          </th>
-        </tr>
-
-        <tr>
-          <th scope="col" bgcolor="#CCCCCC">4/4</th>
-          <th scope="col" bgcolor="#CCCCCC">E</th>
-          <th scope="col" bgcolor="#CCCCCC">&nbsp;</th>
-          <th scope="col" bgcolor="#CCCCCC">&nbsp;</th>
-          <th scope="col" bgcolor="#CCCCCC">
-            <a href="files/CISC1003-HW3.pdf">HW 3</a>
-          </th>
-          <th scope="col" bgcolor="#CCCCCC">
-            <a href="files/lab-book-CISC1003-NXT.pdf">Unit E - Lab 1</a>
-          </th>
-          <th scope="col" bgcolor="#CCCCCC">
-            <a href="files/E-SearchandRescue-CISC1003.pdf">Search and Rescue*</a>
-          </th>
-        </tr>
-
-        <tr>
-          <th scope="col" bgcolor="#CCCCCC">4/11</th>
-          <th scope="col" bgcolor="#CCCCCC">E</th>
-          <th scope="col" bgcolor="#CCCCCC">
-            <p>*QUIZ*</p>
-          </th>
-          <th scope="col" bgcolor="#CCCCCC">
-            <p>Over the next 2 weeks:</p>
-            <p>Robot Primer Chapters 10&amp;11</p>
-            <p>The Robotics Primer, chapters 16&amp;17</p>
-            <p> 
-              <a href="http://agents.sci.brooklyn.cuny.edu/corc3303/papers/e1-mataric-robot-control.pdf">The Basics of Robot Control, Mataric</a></p>
-              <p> 
-                <a href="http://agents.sci.brooklyn.cuny.edu/corc3303/papers/e2-mataric-behavior-1998.pdf">Behavior-Based Robotics, Mataric</a></p>
-              <p>&nbsp;</p>
-          </th>
-          <th scope="col" bgcolor="#CCCCCC">
-
-          </th>
-          <th scope="col" bgcolor="#CCCCCC">
-            <a href="files/lab-book-CISC1003-NXT.pdf">Unit E - Lab 2</a>
-          </th>
-          <th scope="col" bgcolor="#CCCCCC">
-          </th>
-        </tr>
-
-        <tr>
-          <th scope="col" bgcolor="#CCCCCC">4/18</th>
-          <th scope="col" bgcolor="#CCCCCC">F</th>
-          <th scope="col" bgcolor="#CCCCCC">&nbsp;</th>
-          <th scope="col" bgcolor="#CCCCCC">
-          <p>Over the next 2 weeks:</p>
-          <p>Robot Primer Chapter 20 (pages 233–254)</p>
-          <p> 
-              <a href="http://agents.sci.brooklyn.cuny.edu/corc3303/papers/f1-mataric-1992.pdf">Designing Emergent Behaviors, Mataric</a></p>
-              <p>
-                  <a href="https://www.aaai.org/Papers/ICMAS/1996/ICMAS96-082.pdf">RoboCup: The Robot World Cup Initiative, Kitano et. Al</a> 
-              </p>
-              <p>
-                  <a href="https://www.robocup2017.org/eng/leagues_football.html">Online link: RoboCup 2017</a> 
-              </p>
-          <p>&nbsp;</p>
-        </th>
-          <th scope="col" bgcolor="#CCCCCC">
-          </th>
-          <th scope="col" bgcolor="#CCCCCC">
-            <a href="files/lab-book-CISC1003-NXT.pdf">Unit F</a>
-          </th>
-          <th scope="col" bgcolor="#CCCCCC">
-            <a href="files/CISC1003-UnitF1.pdf">Robot Teams*</a>
-          </th>
-        </tr>
-
-        <tr>
-          <th scope="col" bgcolor="#CCCCCC">5/2</th>
-          <th scope="col" bgcolor="#CCCCCC">F</th>
-          <th scope="col" bgcolor="#CCCCCC">&nbsp;</th>
-          <th scope="col" bgcolor="#CCCCCC">&nbsp;</th>
-          <th scope="col" bgcolor="#CCCCCC">
-          </th>
-          <th scope="col" bgcolor="#CCCCCC">
-            <a href="files/lab-book-CISC1003-NXT.pdf">Unit F</a>
-          </th>
-          <th scope="col" bgcolor="#CCCCCC">
-          </th>
-        </tr>
-
-        <tr>
-          <th scope="col" bgcolor="#CCCCCC">5/9</th>
-          <th scope="col" bgcolor="#CCCCCC">Review</th>
-          <th scope="col" bgcolor="#CCCCCC">&nbsp;</th>
-          <th scope="col" bgcolor="#CCCCCC">&nbsp;</th>
-          <th scope="col" bgcolor="#CCCCCC">
-          </th>
-          <th scope="col" bgcolor="#CCCCCC">
-          </th>
-          <th scope="col" bgcolor="#CCCCCC">
-            <a href="files/CISC1003-ReviewRSVP-flowcharts.pdf">Decision making, RSVP, Flowcharts</a>
-          </th>
-        </tr>
-
-
+        
       </tbody>
     </table>
     <!--<p><a href="http://www.sci.brooklyn.cuny.edu/%7Ehalevi/">Return</a></p>-->
