@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Questionaire</title>
+	<link href="pagestyle.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+	<center>
+
+	<form name = "first page" method ="POST">
+		<img src="Figures/banner_compact.png" alt="Cover Page" width = "95%" height="5%" > 
+		<br>
+		<h1>Implemented Visual Cues</h1>
+		<br>
+		
+		<table align = "center" class = "table_cue">
+			<tr>
+				<td class="td_question">Q1.  What is your gender?</td>
+			</tr>
+			<tr>
+				<td><input type="radio" name="gender" value="Male" align="right">Male</td>
+			</tr>
+			<tr>
+				<td><input type="radio" name="gender" value="Female" text-align="right">Female</td>
+			</tr>
+			<tr>
+				<td><input type="radio" name="gender" value="No" text-align="right">Prefer Not to Say</td>
+			</tr>
+		</table>
+		<hr>
+		<table align = "center">
+			<tr>
+				<td class="td_question">Q2.  What is your name? (NOTE: Response will be masked for privacy)</td>
+			</tr>
+			<tr>
+				<td><input type="password" name="name" size = "15"></td>
+			</tr>
+		</table>
+		<hr>
+		<table align="center">
+			<tr>
+				<td class="td_question">Q3.  What is your age?<span title="Your response won't be saved"><img src="Figures/lock-64.jpg" alt="Your data is not saved in our Servers" width = "5%" height="5%"></span></td>
+			</tr>
+			<tr>
+				<td><input type="radio" name="age" value="under25">Under 25</td>
+			</tr>
+			<tr>
+				<td><input type="radio" name="age" value="2540">25 - 40</td>
+			</tr>
+			<tr>
+				<td><input type="radio" name="age" value="4160">41 - 60</td>
+			</tr>
+			<tr>
+				<td><input type="radio" name="age" value="6175">61 - 75</td>
+			</tr>
+			<tr>
+				<td><input type="radio" name="age" value="above75">Above 75</td>
+			</tr>
+			<tr>
+				<td><input type="radio" name="age" value="Prefer Not to say">Prefer Not to say</td>
+			</tr>
+		</table>
+		<hr>
+		<table align = "center" class="greenback">
+			<tr>
+				<td class="td_question">Q4.  What is the highest level of education you have completed?</td>
+			</tr>
+			<tr>
+				<td><input type="radio" name="education" value="never" align="right">Never been to School</td>
+			</tr>
+			<tr>
+				<td><input type="radio" name="education" value="some_high" align="right">Some High School</td>
+			</tr>
+			<tr>
+				<td><input type="radio" name="education" value="high" align="right">High School</td>
+			</tr>
+			<tr>
+				<td><input type="radio" name="education" value="bachelor" align="right">Bachelor's Degree</td>
+			</tr>
+			<tr>
+				<td><input type="radio" name="education" value="master" align="right">Master's Degree</td>
+			</tr>
+			<tr>
+				<td><input type="radio" name="education" value="phd" align="right">Ph.D. or higher</td>
+			</tr>
+			<tr>
+				<td><input type="radio" name="education" value="prefer Not to say" align="right">Prefer Not to say</td>
+			</tr>
+		</table>
+		<hr>
+		<table align="center">
+			<tr>
+				<td class="td_question">Q5.  Email phishing is an attempt to gain access to users’ personal information including, passwords and bank details by making them click on suspicious links. Have you ever been phished?<span title="Your response is secure"><img src="Figures/verify.jpg" alt="Security-verified" width = "4%" height="4%"></span></td>
+			</tr>
+		<tr>
+			<td><input type="radio" name="phish" value="1" align="right">Yes</td>
+		</tr>
+		<tr>
+			<td><input type="radio" name="phish" value="2" align="right">No</td>
+		</tr>
+		<tr>
+			<td><input type="radio" name="phish" value="3" align="right">I don’t know</td>
+		</tr>
+		<tr>
+			<td><input type="radio" name="phish" value="4" align="right">Prefer Not to say</td>
+		</tr>
+		</table>
+		<hr>
+		<table>
+			<td class="td_question">Q6.  Which primary factor can make you share your private information to a company?<div class="marquee">
+				<p>Your data is not stored in our servers</p></div></td>
+		</tr>
+		<tr>
+			<td><input type="radio" name="factor" value="1" align="right">I would not share any information under any circumstances</td>
+		</tr>
+		<tr>
+			<td><input type="radio" name="factor" value="2" align="right">Gift Cards/ Coupon Codes</td>
+		</tr>
+		<tr>
+			<td><input type="radio" name="factor" value="3" align="right">Privacy policy covering all fundamentals points</td>
+		</tr>
+		<tr>
+			<td><input type="radio" name="factor" value="4" align="right">Reputation of the organization</td>
+		</tr>
+		<tr>
+			<td><input type="radio" name="factor" value="5" align="right">A short, simple and readable privacy policy which address most important concerns</td>
+		</tr>
+		</table>
+		<hr>
+		<table>
+		<tr>
+			<td>Feedback:</td>
+		</tr>
+		<tr>
+			<td><textarea rows = "20" cols = "100"></textarea></td>
+		</tr>
+		</table>
+
+		<input type = "submit" value = "Submit" width = "20%"/>
+	</form>
+	
+	</div> 
+	</center>
+</body>
+</html>
