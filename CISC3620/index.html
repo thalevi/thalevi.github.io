@@ -1,116 +1,156 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html><head>
-    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
-    <title>CISC1003</title>
-    <style type="text/css">
-a:link {
-	text-decoration: none;
-}x
-a:visited {
-	text-decoration: none;
-}
-a:hover {
-	text-decoration: underline;
-}
-a:active {
-	text-decoration: none;
-}
-a {
-	font-weight: bold;
-}
-</style>
-  </head>
-  <body>
-    <h1 style="color: #700;"><big> CSC73010: Cryptography and Computer Security </big></h1>
-    <h2 style="background-color:#BBBBBB"> Course Information:</h2>
-    <h4> Computer and Information Science, CUNY Graduate Center</h4>
-    <h4> Fall 2020 </h4>
-    <h4> Instructor Information:</h4>
+<HTML>
+<HEAD>
+<TITLE>Brooklyn College CISC 3325 HOME PAGE</TITLE>
+<link rel="stylesheet" href="styles.css">
+</HEAD>
+<BODY background="./images/comp010.jpg">
+<H1>
+	<CENTER>
+			WELCOME TO<BR>
+			CISC 3620, Computer Graphics
+	</CENTER>
+</H1>
+
+<HR>
+<h4>Information Center:</h4>
+	<UL>
+		<LI>Course Syllabus <a href="CISC3620-syllabusSpr21 .pdf">here</a>
+		<LI><A HREF="http://www.brooklyn.cuny.edu/">The Brooklyn College</A> Home Page.
+		<LI><A HREF="http://www.brooklyn.cuny.edu/web/academics/schools/naturalsciences/departments/computers.php">The CIS Department</A> for undergraduate students.
+	</UL>
+
+	<h4> Instructor Information:</h4>
     <ul>
     <li>Tzipora Halevi</li>
-    <li>thalevi@gc.cuny.edu </li>
-    </ul>
-    <h4>Online Syllabi:  <a href="CSC73010-syllabusFall20.pdf"> CSC73010 </a></h4>
-    <h4> Hours and location:</h4>
-    <table id="SSR_CLSRCH_MTG$scroll$0" dir="ltr" cols="4" cellspacing="0" cellpadding="2" border="1" width="544">
-      <tbody>
-        <tr id="trSSR_CLSRCH_MTG$0_row1" valign="center">
-          <td height="13" align="left">
-                  <div id="win0divMTG_SCHED$0"><span id="MTG_SCHED$1">Mondays 
-                9:30 am - 11:30 am </span></div>
-          </td>
-          <td align="left">
-            <div id="win0divMTG_LOC$0"><span id="MTG_LOC$0">Online - Zoom</span></div>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-<!--     
-    <table border="0">
-      <p> </p>
-                  <h2 style="background-color:#BBBBBB">Course Requirements:</h2>
-      <tbody>
-        <tr>
-          <td>
+    <li>halevi@sci.brooklyn.cuny.edu</li>
+       <li>Ingersol Hall, room 2156A</li>
+    <!-- <li>Office Hours: Thursdays, 3:30 - 5:00pm</li> -->
 
-              Lectures:
-              <UL>
-              <LI> <A HREF="files/1-introduction-CSC84400.pdf"> Introduction</A></li>
-              <li> <a href="files/2-security-CSC84400.pdf"> Security</a></li>
-              <LI> <A HREF="files/3-security-crypto-CSC84400.pdf"> Cryptography - Encryption</A></li>
-                <li> <a href="files/4-cryptotools-CSC84400.pdf"> Cryptographic Tools</a></li>
-                <li> <a href="files/5-privacy-CSC84400.pdf"> Privacy</a></li>
-                <li> <a href="files/6-usabilitydesign-CSC84400.pdf"> Usability Design</a></li>
-                <li> <a href="files/7-UserStudies-CSC84400.pdf"> User Studies</a></li>
-                <li> <a href="files/8-studydesign-CSC84400.pdf"> Study Design</a></li>
-                <li> <a href="files/9-observation-CSC84400.pdf"> Observation</a></li>
-                <li> <a href="files/10-securityusability-CSC84400.pdf"> Security and Usability</a></li>
-                <li> <a href="files/11-privacytools-CSC84400.pdf"> Privacy Tools</a></li>
-                <li> <a href="files/12-warnings-CSC84400.pdf"> Security Warnings</a></li>
-                <li> <a href="files/13-blockchain.pdf"> Blockchain</a></li>
-                <li> <a href="files/14-trainingawareness-CSC84400.pdf"> Training Awareness</a></li>
-              </UL>
+<!-- <HR> -->
+<!-- 
+	Current Homework Assignments:
+<table style="width:100%">
+	<tr>
+	  <th>HW#</th>
+	  <th>Due</th>
+	  <th> Description</th>
+	</tr>
+	<tr>
+	  <td><A HREF="files/Hw1-CISC3325.pdf">#1</A></td>
+	  <td>09/10</td>
+	  <td>Computer security breaches</td>
+	</tr>
+	<tr>
+		<td><A HREF="files/Hw2-CISC3325.pdf">#2</A></td>
+		<td>9/24</td>
+		<td>Access control and encryption</td>
+	  </tr>
+	  <tr>
+			<td><A HREF="files/Hw3-CISC3325.pdf">#3</A></td>
+			<td>10/10</td>
+			<td>Certificates and PGP</td>
+		  </tr>
 
-              Reading:
-              <UL>
-                
-                  <LI> 
-                  <a href="https://people.eecs.berkeley.edu/~tygar/papers/Why_Johnny_Cant_Encrypt/USENIX.pdf">Why Johnny Can’t Encrypt:A Usability Evaluation of PGP 5.0</a>
-                  </li>
-                  <LI>
-                  <a href="https://www.usenix.org/system/files/conference/soups2016/soups2016-paper-porter-felt.pdf">Rethinking Connection Security Indicators</a></li>
-                </li>
-                <LI>
-                  <a href="http://test.preibusch.net/publications/Preibusch__IJHCS_Measuring-Privacy-Concern-Review_2013__AuthorCopy.pdf">Guide to measuring privacy concern: review of survey and observational instruments, Soren Preibusch, 2013</a></li>
-                </li>
-                  <LI>
-                    <a href="https://www.vsdesign.org/publications/pdf/Security_and_Usability_ch24.pdf">Informed Consent by Design, B. Friedman, P. Lin and J. Miller, 2005</a></li>
-                  </li>
-                  <LI>
-                    <a href="https://thalevi.github.io/CSC84400/files/Norman-chap1.pdf">The Design of Everyday Things, Don Norman, 2013, Chapter 1</a></li>
-                  </li>
-                    <LI>
-                      <a href="https://pdfs.semanticscholar.org/eab2/b1523b942ca7ae44e7495c496bc87628f9e1.pdf">The ecological Approach to Visual Perception, J. Gibson, Chapter 8</a></li>
-                    </li>
-              </UL>
+		  <tr>
+			<td><A HREF="files/Hw4-CISC3325.pdf">#4</A></td>
+			<td>10/31</td>
+			<td>Buffer overflows</td>
+		  </tr>
 
-              Hoework:
-              <UL>
-                
-              <LI> 
-              <a href="files/HW1-CSC84400.pdf">Homework 1, Due Feb 25, 2019 </a>
-              </li>
-              <LI>
-              <a href="files/HW2-csc84400.pdf">Homework 2, Due March 4, 2019</a></li>
-              <LI>
-                <a href="files/HW3-csc84400.pdf">Homework 3, Due March 11, 2019</a></li>
-              </UL>
-          </UL>
+		  <tr>
+			<td><A HREF="files/Hw5-CISC3325.pdf">#5</A></td>
+			<td>11/21</td>
+			<td>Networks</td>
+		  </tr>
 
-          </td>
-        </tr>
-      </tbody>
-    </table> -->
-    
+		  <tr>
+			<td><A HREF="files/Hw6-CISC3325.pdf">#6</A></td>
+			<td>12/12</td>
+			<td>Operating Systems</td>
+		  </tr>
+  </table>  -->
 
-</body></html>
+
+<!-- </UL>
+
+<HR>
+	Course <a href="files/Security Project CISC3325.pdf">project</a> on information security.</li>
+
+	<hr>
+
+<HR>
+Extra Credit <a href="files/Buffer_Overflow-project1.pdf">project</a> on information security.</li>
+
+
+<hr> 
+
+<br/> -->
+<!-- 
+
+	Lectures:
+	<UL>
+	<LI> <A HREF="files/CISC3325-1-introduction.pdf"> Introduction</A></li>
+	<li> <a href="files/CISC3325-2-accesscontrol.pdf"> Access Control</a></li>
+	<LI> <A HREF="files/CISC3325-3-cryptography.pdf"> Cryptography</A></li>
+	<LI> <A HREF="files/CISC3325-4-cryptographicTools.pdf"> Cryptographic Tools</A></li>
+	<LI> <A HREF="files/CISC3325-5-programsprogramming.pdf"> Programs and Programming</A></li>
+	<LI> <A HREF="files/CISC3325-6-softwaresecurity.pdf"> Software Security</A></li>
+	<LI> <A HREF="files/CISC3325-7-securityprinciples.pdf"> Security Principles</A></li>
+	<LI> <A HREF="files/CISC3325-8-networksecurity.pdf"> Network Security</A></li>
+	<LI> <A HREF="files/CISC3325-9-networkattacks.pdf"> Network Attacks</A></li>
+	<LI> <A HREF="files/CISC3325-10-networksencryption.pdf"> Network Encryption</A></li>
+	<LI> <A HREF="files/CISC3325-11-webusability.pdf"> Web Usability</A></li>
+	<LI> <A HREF="files/CISC3325-12-OS.pdf"> Operating Systems</A></li>
+	<LI> <A HREF="files/CISC3325-13-quantumcomputing.pdf"> Quantum Computing</A></li>
+	<LI> <A HREF="files/CISC3325-14-database.pdf"> Databases</A></li>
+	<LI> <A HREF="files/CISC3325-16-cloudcomputing.pdf"> Cloud Computing</A></li>
+	<LI> <A HREF="files/CISC3325-17-privacy.pdf"> Privacy</A></li> -->
+
+	<!-- <li> <a href="files/3-cryptography-CSC7320x.pdf"> Cryptography</a></li>
+	<li> <a href="files/4-cryptographicTools-CSC7320x.pdf"> Cryptographic Tools</a></li>
+	<li> <a href="files/5-softwaresecurity-CSC7320x.pdf"> Software Security</a></li>
+	<li> <a href="files/6-webusability-p-CISC7320x.pdf"> The Web - User Side</a></li>
+	<li> <a href="files/7-OperatingSystems-CISC7320x.pdf"> Operating Systems</a></li>
+	<li> <a href="files/8-networks-CISC7320x.pdf"> Networks</a></li>
+	<li> <a href="files/9-networksencryption-CISC7320x.pdf"> Network Encryption</a></li> 
+	<li> <a href="Lectures/Pfleeger_9780134093093_Ch10.pdf"> Management of Risk</a></li> 
+
+	</UL> -->
+
+<!-- <HR>
+Computer Security References:
+	<UL>
+	<li>Common vulnerabilities and exposures <a href="http://cve.mitre.org/">website</a></li>
+	<li>National vulnerabilities database <a href="https://nvd.nist.gov">website</a></li>
+	<li>Most common recent <a href="https://en.wikipedia.org/wiki/List_of_the_most_common_passwords">passwords</a></li>
+	<li>Major flaws in most <a href="https://www.nytimes.com/2018/01/03/business/computer-flaws.html">microprocessors</a></li>
+	<li>Malware <a href="https://www.symantec.com/security_response/landing/threats.jsp">2018</a></li>
+	<li>The Apple "goto" <a href="https://nakedsecurity.sophos.com/2014/02/24/anatomy-of-a-goto-fail-apples-ssl-bug-explained-plus-an-unofficial-patch/">error</a></li>
+	<li>Languages used in <a href="./references/tokeiinfo">browsers</a></li>
+	<li>When hacking websites was <a href="http://www.adforum.com/creative-work/ad/player/19583/cheese-wars/ibm">entertainment</a></li>
+	<li>Hacking through <a href="https://www.nytimes.com/2017/05/07/technology/hackers-exploit-celebrities-vendor-chains.html?_r=0">e-mail</a>, again</li>
+    <li><a href="./references/phishex.html">phishing</a> example</li>
+	<li>Boot process in <a href="http://www.thegeekstuff.com/2011/02/linux-boot-process">Linux</a></li>
+	<li>Boot process in <a href="http://www.hawkdive.com/2017/09/understanding-mac-boot-process.html">MAC OS</a></li>
+	<li>Google bots and <a href="https://www.informationsecuritybuzz.com/news/dr-crawlit-mr-hack-two-faces-googlebot-2/">counterfit bots</a></li>
+	<li>The European General Data Protection <a href="https://www.eugdpr.org/">Regulation</a></li>
+	<li>How secure is your <a href="https://www.nbcnews.com/news/world/your-dna-police-database-flna6C10617124">DNA</a></li>
+	<li>Mozilla Foundation <a href="https://fbsurvey.mozillafoundation.org/">survey</a> on Facebook usage</li> -->
+<!--
+	<li>Cyberattacks against <a href="https://sciencenode.org/feature/estonia-liisa-past.php?clicked=title">countries</a></li>
+	<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security">Strict Transport Security</a></li>
+	<li><a href="https://www.nytimes.com/2017/12/27/technology/personaltech/new-years-resolutions-technology.html">Protect yourself</a></li>
+	<li>Tool for spying: <a href="https://www.nytimes.com/2018/01/01/technology/kaspersky-lab-antivirus.html">anti-virus software</a></li>
+	<li>Example of a <a href="https://msdn.microsoft.com/en-us/library/ee798511%28v=cs.20%29.aspx">heap</a> overflow</li>
+	<li>Symantec A-Z listing of <a href="https://www.symantec.com/security_response/landing/azlisting.jsp">threats and risks</li>
+	<li>Current security <a href="https://securelist.com/">problems</a></li>
+	<li>ATM skimmers - a type of <a href="https://krebsonsecurity.com/all-about-skimmers/">key logger</a></li>
+	<li><a href="https://wikileaks.org/ciav7p1/">Wikileaks</a>: CIA hacking tools revealed</a>
+	<li><a href="./spam/phishex.html">phishing</a> example</li>
+	<li>Booting <a href="https://busylog.net/mac-osx-boot-sequence-launchd/">Mac OS</a></li>
+	<li>Uncovering a <a href="https://www.wired.com/2017/03/russian-hacker-spy-botnet/">hacker</a></li>
+	<li><a href="./passsurvey.pdf">survey</a></li>
+-->
+	</UL>
+</BODY>
+</HTML>
