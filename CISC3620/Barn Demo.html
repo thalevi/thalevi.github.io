@@ -1,0 +1,35 @@
+
+  Barn Demo
+
+This file has the minimal code to create a working Three.js application,
+using the TW object to set up the camera for us. Because the canvas does
+not cover the entire window, there is space for some ordinary HTML like
+this.
+
+
+    GUI
+
+The |TW.cameraSetup()| method sets up a THREE.js Orbiting Camera (we'll
+learn more about this later) that lets you look at the scene from all
+sides. You'll find it's pretty intuitive, but here's a brief listing of
+what the mouse will do:
+
+  * Clicking and dragging the mouse on the canvas moves the camera
+    around the center of the scene, /orbiting/ it. For example, clicking
+    and dragging from left to right lets you look at all the walls of
+    the barn, and dragging up and down lets you see the roof and floor.
+  * The arrow keys can be used to shift the camera to the left, right,
+    up, or down. Dragging the mouse then rotates the barn around a
+    different point.
+  * The scroll wheel allows you to "dolly" the camera in (closer to the
+    center of the scene) or out (farther away). 
+
+Later we'll learn how to modify the GUI to do different actions.
+
+
+    Keyboard Shortcuts
+
+The |TW.cameraSetup()| method also sets up some keyboard commands. Enter
+"?" to find out what they are. You may need to click on the canvas
+first, to put it in focus.
+
