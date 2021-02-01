@@ -1,0 +1,333 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+    <title>CISC1003</title>
+    <style type="text/css">
+a:link {
+	text-decoration: none;
+}x
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}
+a {
+	font-weight: bold;
+}
+</style>
+  </head>
+  <body>
+    <h1 style="color: #700;"><big> CISC1003: EXPLORING ROBOTICS </big></h1>
+    <h2 style="background-color:#BBBBBB"> Course Information:</h2>
+    <h4> Computer and Information Science, Brooklyn College</h4>
+    <h4> Spring 2019 </h4>
+    <h4> Instructor Information:</h4>
+    <ul>
+    <li>Tzipora Halevi</li>
+    <li>halevi@sci.brooklyn.cuny.edu</li>
+       <li>Ingersol Hall, room 2156A</li>
+    <!-- <li>Office Hours: Wednesdays, 6:30 - 8:00pm</li> -->
+    </ul>
+    <h4>Online Syllabi:  <a href="CISC1003-syllabus.pdf"> CISC1003 </a></h4>
+    <h4> Hours and location:</h4>
+    <table id="SSR_CLSRCH_MTG$scroll$0" dir="ltr" cols="4" cellspacing="0" cellpadding="2" border="1" width="544">
+      <tbody>
+        <tr id="trSSR_CLSRCH_MTG$0_row1" valign="center">
+          <td height="13" align="left">
+                  <div id="win0divMTG_SCHED$0"><span id="MTG_SCHED$1">Thu 
+                12:50PM-3:30PM</span></div>
+          </td>
+          <td align="left">
+            <div id="win0divMTG_LOC$0"><span id="MTG_LOC$0">Ingersoll
+                3208</span></div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <table border="0">
+      <p> </p>
+                  <h2 style="background-color:#BBBBBB">Course Requirements:</h2>
+      <tbody>
+        <tr>
+          <td>
+            <h3>Textbooks:</h3>
+            <p><strong>The Robotics Primer</strong><br>
+              by Maja Mataric<br>
+              Publisher: The MIT Press (September 30, 2007)<br>
+              ISBN-10: 026263354X<br>
+              ISBN-13: 978-0262633543</p>
+
+              <p><strong>Robot Programming: A Guide to Controlling Automous Robots</strong><br>
+                by <span data-bind="html: bookDetailsPage.getInfo('author')">Hughes, Cameron, Hughes, Tracey</span><br>
+                Publisher QUE:<br>
+                <strong>ISBN-10:</strong><span data-bind="html: bookDetailsPage.getInfo('isbn10')"> 0789755009</span><br>
+                <span data-bind="html: bookDetailsPage.getInfo('isbn10')"><strong>ISBN-13</strong> :<span data-bind="html: bookDetailsPage.isbn">9780789755001</span><br>
+                If you like, there is a Kindle edition and appears in color on devices that have a color display. Also please don't get overwelmed by this book, we will not be coding in Java or C language or using complex math formulas used in the book. I skip over them on the readings.</span></p>
+
+              <h3>Programming Guide:</h3>
+            <p id="title"><span id="productTitle"><strong>The LEGO MINDSTORMS EV3 Discovery Book:<br>
+              A Beginner's Guide to Building and Programming Robots<br>
+            </strong></span><strong>Publisher:</strong> No Starch Press<br>
+              <strong>ISBN-10:</strong> 1593275323<br>
+            <strong>ISBN-13:</strong> 978-1593275327</p>
+            <p>There will also be some handouts throught the term.</p>
+       </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3><strong>Please bring a USB Drive to save your work</strong></h3>
+
+     <h2 style="background-color:#BBBBBB">Course Structure:</h2>
+    <h4 dir="ltr" id="docs-internal-guid-4620e499-d998-dab2-591f-0e6d6ba7f4a1">6
+      Units (consisting of):&nbsp;</h4>
+    <ul>
+      <li dir="ltr">
+        <p dir="ltr">1 lecture</p>
+      </li>
+      <li dir="ltr">
+        <p dir="ltr">2 labs</p>
+      </li>
+      <li dir="ltr">1-2 assessment assignments (HWs, quizes, classroom
+        demonstrations)</li>
+    </ul>
+    <p><span id="docs-internal-guid-4620e499-d99c-495d-c662-2931ce3dd5b3">Grading
+        = 6 Unit Materials (10% each) + Exam (30%) + Attendance &amp;
+        Participation (10%)</span></p>
+    <hr>
+    <h2 style="background-color:#BBBBBB">Additional Resources:</h2>
+    <p>Useful Links:</p>
+<ul>
+  <li><a href="https://www.lego.com/en-us/mindstorms/downloads/download-software">Software</a></li>
+  <li><a href="https://www.lego.com/en-us/mindstorms/learn-to-program">Learn to Program</a> - <strong>Helpful</strong></li>
+  <li><a href="files/buildingguide.pdf">Building Guide</a></li>
+  <li><a href="http://ev3lessons.com/en/">Tutorials</a><a href="http://www.mainerobotics.org/uploads/8/3/4/4/8344007/advanced_programmingforprint.pdf"></a></li>
+</ul>
+
+<table width="800" border="0">
+        <tr>
+          <th scope="col" bgcolor="#33CCFF">Date</th>
+          <th scope="col" bgcolor="#33CCFF">Unit</th>
+          <th scope="col" bgcolor="#33CCFF">
+            <p>Class Work</p>
+          </th>
+          <th scope="col" bgcolor="#33CCFF">Reading</th>
+          <th scope="col" bgcolor="#33CCFF">Assignment</th>
+          <th scope="col" bgcolor="#33CCFF">Labs</th>
+          <th scope="col" bgcolor="#33CCFF">Links</th>
+        </tr>
+        <tr>
+          <th scope="col" bgcolor="#CCCCCC">1/30</th>
+          <th scope="col" bgcolor="#CCCCCC">A</th>
+          <th scope="col" bgcolor="#CCCCCC">
+            <p>Lecture Unit A (part 1)</p>
+            <p> Teams and Equipment check-out</p>
+          </th>
+          <th scope="col" bgcolor="#CCCCCC">
+            <p><strong>The Robotics Primer</strong> Ch 1-3 (pg 1-27)</p>
+
+            <p> Autonomous robots
+              <br>
+              <a href="http://mitp-content-server.mit.edu:18180/books/content/sectbyfn?collid=books_pres_0&fn=9780262025782_sch_0001.pdf&id=1498">Ch 1</a>
+            </p>
+
+          </th>
+          <th scope="col" bgcolor="#CCCCCC">&nbsp;</th>
+          <th bgcolor="#CCCCCC" scope="col">
+ 
+            <p> <a href="files/ev3 building instructions.pdf">Building Instructions</a></p>
+            
+            <p> <a href="files/movementLab.pdf">Movement Lab</a></p>
+        </th>
+        <th scope="col" bgcolor="#CCCCCC">
+            <p><a href="files/1A-introduction-CISC1003.pdf">Unit A Intro*</a></p>
+          </th>
+        </tr>
+
+        <tr>
+          <th scope="col" bgcolor="#CCCCCC">
+            <p>2/6</p>
+          </th>
+          <th scope="col" bgcolor="#CCCCCC">A </th>
+          <th scope="col" bgcolor="#CCCCCC">
+              <p>Screen, Motors, Sounds</p>
+          </th>
+          <th bgcolor="#CCCCCC" scope="col"><p><strong>The Robotics Primer</strong> Chapter 4 </p>
+            <p>Helpful:</p>
+            <ul>
+              <li><a href="http://ev3lessons.com/en/ProgrammingLessons/beginner/MovingStraight.pdf"> Moving Straight</a></li>
+              <li><a href="http://ev3lessons.com/en/ProgrammingLessons/beginner/Turning.pdf"> Turning</a></li>
+              <li><a href="http://ev3lessons.com/en/ProgrammingLessons/beginner/Display.pdf"> Display</a></li>
+
+              <p>Advanced Reading: <br>
+              <a href="files/papers/p499-raibert.pdf">Legged Robots</a></p>
+
+            </ul></th>
+
+            <th scope="col" bgcolor="#CCCCCC">
+            </th>
+          <!-- <th scope="col" bgcolor="#CCCCCC"><a href="files/CISC1003-HW1.pdf">HW 1</a></th> -->
+          <th bgcolor="#CCCCCC" scope="col">
+ 
+            <p> <a href="files/Turning.pdf">Turning Lab</a></p>
+
+            <p> <a href="files/ObstacleCourse.pdf">Obstacle Course Challenge</a></p>
+            
+        </th>
+
+  
+          <th scope="col" bgcolor="#CCCCCC"><a href="files/A2-introduction-CISC1003.pdf">&nbsp;Unit&nbsp;A,&nbsp;week&nbsp;2*&nbsp;</a></th>
+        </tr>
+
+        <tr>
+          <th scope="col" bgcolor="#CCCCCC">
+            <p>2/13</p>
+          </th>
+          <th scope="col" bgcolor="#CCCCCC">B </th>
+          <th scope="col" bgcolor="#CCCCCC">
+              <p>Gears</p>
+          </th>
+          <th bgcolor="#CCCCCC" scope="col">
+       </th>
+
+            <th scope="col" bgcolor="#CCCCCC">
+            </th>
+          <!-- <th scope="col" bgcolor="#CCCCCC"><a href="files/CISC1003-HW1.pdf">HW 1</a></th> -->
+          <th bgcolor="#CCCCCC" scope="col" height="30">
+            
+            <p> <a href="files/PortView.pdf">Port View</a></p>
+            
+            <!-- <p> <a href="files/ObstacleCourse.pdf">Obstacle Course Challenge</a></p> -->
+            
+        </th>
+
+        <th scope="col" bgcolor="#CCCCCC">
+          <p><a href="files/B1-Construction-CISC1003.pdf">Unit B, week 1*</a></p>
+        </th>
+        </tr>
+
+        <tr>
+          <th scope="col" bgcolor="#CCCCCC">
+            <p>2/20</p>
+          </th>
+          <th scope="col" bgcolor="#CCCCCC">B </th>
+          <th scope="col" bgcolor="#CCCCCC">
+              <p>Loops Lab</p>
+          </th>
+          <th bgcolor="#CCCCCC" scope="col"><p><strong>The Robotics Primer</strong> Chapter 5 </p>
+       </th>
+
+            <th scope="col" bgcolor="#CCCCCC">
+            </th>
+          <!-- <th scope="col" bgcolor="#CCCCCC"><a href="files/CISC1003-HW1.pdf">HW 1</a></th> -->
+          <th bgcolor="#CCCCCC" scope="col">
+ 
+            <p> <a href="files/loops.pdf">Loops Lab</a></p>
+
+            <!-- <p> <a href="files/ObstacleCourse.pdf">Obstacle Course Challenge</a></p> -->
+            
+        </th>
+
+        <th scope="col" bgcolor="#CCCCCC">
+          <p><a href="files/B2-Gears-CISC1003.pdf">Unit B, week 2*</a></p>
+        </th>
+        </tr>
+
+        <tr>
+          <th bgcolor="#CCCCCC" scope="col"><strong>2/27<br>
+          </strong></th>
+          <th bgcolor="#CCCCCC" scope="col">C</th>
+          <th bgcolor="#CCCCCC" scope="col"><p>Sensors</p></th>
+
+          <th scope="col" bgcolor="#CCCCCC">&nbsp;</th>
+        
+          <th scope="col" bgcolor="#CCCCCC">&nbsp;</th>
+
+          <!-- <th bgcolor="#CCCCCC" scope="col"><p>Read these page pages:</p>
+          <p><a href="http://www.robotplatform.com/knowledge/Classification_of_Robots/Types_of_wheeled_robots.html">Wheels Robots</a></p>
+          <p><a href="http://www.robotplatform.com/knowledge/Classification_of_Robots/wheel_control_theory.html">Wheel Control Theory</a></p>
+          <p><a href="http://www.robotplatform.com/knowledge/Classification_of_Robots/tracked_robots.html">Tracked Robots</a></p>
+          <p>Answer the following <a href="files/CISC1003-Homework1.pdf">Questions</a><br>
+         </th> -->
+    
+         <th bgcolor="#CCCCCC" scope="col" height="30">
+          <p><a href="files/sensor-labs.html">Sensor Labs</a></p>
+         </th>
+
+          <th bgcolor="#CCCCCC" scope="col">
+            <p>
+              <a href="files/C1-sensors-CISC1003.pdf">Unit C, Week 1*</a>
+          </th>
+        </tr>
+
+        <tr>
+          <th bgcolor="#CCCCCC" scope="col"><strong>3/5<br>
+          </strong></th>
+          <th bgcolor="#CCCCCC" scope="col">C</th>
+          <th bgcolor="#CCCCCC" scope="col"><p>Color & Infrared Sensors</p></th>
+
+          <th scope="col" bgcolor="#CCCCCC">&nbsp;</th>
+        
+          <th scope="col" bgcolor="#CCCCCC">&nbsp;</th>
+
+          <!-- <th bgcolor="#CCCCCC" scope="col"><p>Read these page pages:</p>
+          <p><a href="http://www.robotplatform.com/knowledge/Classification_of_Robots/Types_of_wheeled_robots.html">Wheels Robots</a></p>
+          <p><a href="http://www.robotplatform.com/knowledge/Classification_of_Robots/wheel_control_theory.html">Wheel Control Theory</a></p>
+          <p><a href="http://www.robotplatform.com/knowledge/Classification_of_Robots/tracked_robots.html">Tracked Robots</a></p>
+          <p>Answer the following <a href="files/CISC1003-Homework1.pdf">Questions</a><br>
+         </th> -->
+    
+         <th bgcolor="#CCCCCC" scope="col" height="30">
+          <p><a href="files/Color Lab.html">Color Lab</a></p>
+
+          Helpful:
+          <p><a href="files/Switches.pdf">Switches</a></p>
+          <p><a href="files/Color.pdf">Color Sensor</a></p>
+
+         </th>
+
+          <!-- <th bgcolor="#CCCCCC" scope="col">Unit C - Lab 1</th> -->
+          <th bgcolor="#CCCCCC" scope="col">
+            <p>
+              <a href="files/C2-locomotion-CISC1003.pdf">Unit C, Week 2*</a>
+          </th>
+        </tr>
+
+        <tr>
+          <th bgcolor="#CCCCCC" scope="col"><strong>3/19<br>
+          </strong></th>
+          <th bgcolor="#CCCCCC" scope="col">D</th>
+          <th bgcolor="#CCCCCC" scope="col"><p>Robot Control</p></th>
+
+          <th scope="col" bgcolor="#CCCCCC">&nbsp;</th>
+        
+          <th scope="col" bgcolor="#CCCCCC">&nbsp;</th>
+
+          <!-- <th bgcolor="#CCCCCC" scope="col"><p>Read these page pages:</p>
+          <p><a href="http://www.robotplatform.com/knowledge/Classification_of_Robots/Types_of_wheeled_robots.html">Wheels Robots</a></p>
+          <p><a href="http://www.robotplatform.com/knowledge/Classification_of_Robots/wheel_control_theory.html">Wheel Control Theory</a></p>
+          <p><a href="http://www.robotplatform.com/knowledge/Classification_of_Robots/tracked_robots.html">Tracked Robots</a></p>
+          <p>Answer the following <a href="files/CISC1003-Homework1.pdf">Questions</a><br>
+         </th> -->
+    
+         <th scope="col" bgcolor="#CCCCCC">&nbsp;</th>
+
+          <!-- <th bgcolor="#CCCCCC" scope="col">Unit C - Lab 1</th> -->
+          <th bgcolor="#CCCCCC" scope="col">
+            <p>
+              <a href="files/D1-Control-CISC1003.pdf">Unit D, Week 1*</a>
+          </th>
+        </tr>
+
+        
+        
+      </tbody>
+    </table>
+    <!--<p><a href="http://www.sci.brooklyn.cuny.edu/%7Ehalevi/">Return</a></p>-->
+    <p>*Adapted from slides by Prof. Lawrence Goetz</p>
+
+</body></html>
